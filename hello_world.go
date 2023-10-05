@@ -17,4 +17,14 @@ func main() {
 	var myString2 = "Hola esto es string2 sin tipado"
 	fmt.Println(myString2)
 
+	//si se declara como string se muere como string
+	var myInt int = 7
+	fmt.Println(myInt)
+	//int8 int16 *int 32 int64
+
+	myInt = myInt + 4
+	fmt.Println(myInt)
+	fmt.Println(myInt - 1)
+	fmt.Println(myInt + 4)
+
 }
